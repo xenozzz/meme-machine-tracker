@@ -10,8 +10,34 @@ Welcome to the official public repository for **Meme Machine**. Since the game c
 
 ## 🚨 PATCH NOTES V5.0: THE BRAINROT UPDATE
 
-**Current Status:** LIVE
-**Focus:** PvP, High-Stakes Gambling, and Media Overhaul.
+# Changelog - Meme Machine
+
+## [Latest Session - December 19, 2025]
+
+### 🎰 Gambling Mechanics Enhancements
+*   **Social Credit Penalties:** Implemented a -5 social credit deduction for every gambling action across Roulette, Coinflip, and Plinko to encourage active work participation.
+*   **Stats Tracking:** Ensured all gambling API routes (`/api/roulette`, `/api/coinflip`, `/api/coinflip-pvp`, `/api/plinko`) correctly update `total_wagered` and `total_won_gambling` statistics for accurate leaderboard and profile displays.
+
+### 🛡️ Item & Security Refinements
+*   **Cyber Firewall & Espionage:** Reviewed and validated the full logic for "Cybersecurity" (firewall) and "Espionage" (hacker) items. 
+    *   Firewall now correctly blocks hacks and expires after 12 hours.
+    *   Espionage allows hacking random rich players with a 4-hour cooldown.
+    *   Integrated both features seamlessly into the `WallStreetModal` and `StoreModal`.
+
+### 🎨 Visual & UI Corrections
+*   **Emoji Fixes:** Corrected broken/corrupted emojis for the "Delivery Knight" animation and lootbox rewards in chat and profile views.
+*   **Brainrot Player 2.0:** Verified that the YouTube embed (Brainrot Player) displays correctly across all game tabs (Slots, Roulette, Coin, Plinko), ensuring maximum engagement during the grind.
+
+### ⚙️ Admin & Reset Features
+*   **Plinko Reset System:** 
+    *   Updated database schema with `is_plinko_reset_pending`.
+    *   Created `/api/admin/trigger-plinko-reset` for administrative control.
+    *   Implemented a narrative-driven reset in `/api/plinko/route.ts` that resets player scores/stats when triggered by an admin.
+
+### 🛠️ TypeScript & Build Stability
+*   **Bug Squashing:** Addressed numerous TypeScript errors in `app/page.tsx` and related components (`CoinGame.tsx`, `RouletteGame.tsx`, etc.).
+*   **Export/Import Fixes:** Standardized type exports (`UserProfile`, `CoinResult`, `RouletteResult`) and corrected relative import paths.
+*   **Backend Stability:** Resolved critical backend errors, including duplicate variable declarations in `/api/plinko` and incorrect `Promise.all` destructuring in `/api/coinflip-pvp`.
 
 ### ⚔️ PvP & Gambling
 * **PvP Deathrolls:** Challenge players to 1v1 coin-flip duels. Includes invite system (accept/decline), expiration timers, and history logs.
