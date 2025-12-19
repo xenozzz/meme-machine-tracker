@@ -1,62 +1,38 @@
-# 🧠 Meme Machine V5.0+ | Public Tracker
+# 🧠 Meme Machine V5.0+ | Public Hub
 
 > **"The only economy where losing money is a feature."**
 
 Welcome to the official public repository for **Meme Machine**. Since the game code is private (to prevent insider trading and source code theft), this repository serves as our **Issue Tracker**, **Suggestion Box**, and **Game Manual**.
 
-### 🔗 https://slots.xenoz.online
+### 🔗 Play Now: [slots.xenoz.online](https://slots.xenoz.online)
 
 ---
 
 ## 🚨 PATCH NOTES V5.0: THE BRAINROT UPDATE
 
-# Changelog - Meme Machine
-
-## [Latest Session - December 19, 2025]
-
-### 🎰 Gambling Mechanics Enhancements
-*   **Social Credit Penalties:** Implemented a -5 social credit deduction for every gambling action across Roulette, Coinflip, and Plinko to encourage active work participation.
-*   **Stats Tracking:** Ensured all gambling API routes (`/api/roulette`, `/api/coinflip`, `/api/coinflip-pvp`, `/api/plinko`) correctly update `total_wagered` and `total_won_gambling` statistics for accurate leaderboard and profile displays.
-
-### 🛡️ Item & Security Refinements
-*   **Cyber Firewall & Espionage:** Reviewed and validated the full logic for "Cybersecurity" (firewall) and "Espionage" (hacker) items. 
-    *   Firewall now correctly blocks hacks and expires after 12 hours.
-    *   Espionage allows hacking random rich players with a 4-hour cooldown.
-    *   Integrated both features seamlessly into the `WallStreetModal` and `StoreModal`.
-
-### 🎨 Visual & UI Corrections
-*   **Emoji Fixes:** Corrected broken/corrupted emojis for the "Delivery Knight" animation and lootbox rewards in chat and profile views.
-*   **Brainrot Player 2.0:** Verified that the YouTube embed (Brainrot Player) displays correctly across all game tabs (Slots, Roulette, Coin, Plinko), ensuring maximum engagement during the grind.
-
-### ⚙️ Admin & Reset Features
-*   **Plinko Reset System:** 
-    *   Updated database schema with `is_plinko_reset_pending`.
-    *   Created `/api/admin/trigger-plinko-reset` for administrative control.
-    *   Implemented a narrative-driven reset in `/api/plinko/route.ts` that resets player scores/stats when triggered by an admin.
-
-### 🛠️ TypeScript & Build Stability
-*   **Bug Squashing:** Addressed numerous TypeScript errors in `app/page.tsx` and related components (`CoinGame.tsx`, `RouletteGame.tsx`, etc.).
-*   **Export/Import Fixes:** Standardized type exports (`UserProfile`, `CoinResult`, `RouletteResult`) and corrected relative import paths.
-*   **Backend Stability:** Resolved critical backend errors, including duplicate variable declarations in `/api/plinko` and incorrect `Promise.all` destructuring in `/api/coinflip-pvp`.
-
-### ⚔️ PvP & Gambling
-* **PvP Deathrolls:** Challenge players to 1v1 coin-flip duels. Includes invite system (accept/decline), expiration timers, and history logs.
-    * *Note: Losing a massive wager triggers a "Humiliation" message in the global feed.*
-* **Roulette:** New 8-bit table.
-    * **Red/Black:** 2x Payout.
-    * **Green:** 10x Payout (The Rug Pull).
-    * **The Glitch:** 1% chance a win flips to a loss due to "Server Error."
-* **Slots:** $10 spin ($15 if low credit). Jackpots up to **$25,000**.
-
-### 📉 Economy & QoL
-* **Bank Rework:** Cap set to **$85,000**. Interest is now **2% Hourly** (paid to wallet). Withdrawal fee: 2%.
-* **Market QoL:** Added `Buy 1`, `10`, `MAX` and `Sell 1`, `10`, `ALL` buttons for Fish/Stocks.
-* **Espionage:** Raid other players ($1,000 cost) to steal 5-10% of their wallet.
+### 🎰 New Features & Content
+* **PvP Deathrolls:** Challenge players to 1v1 coin-flip duels. Includes invite system, expiration timers, and history logs.
+  * *Note: Losing a massive wager triggers a "Humiliation" message in the global feed.*
+* **Roulette 2.0:** New 8-bit table visuals.
+  * **Red/Black:** 2x Payout.
+  * **Green:** 10x Payout (The Rug Pull).
+  * **The Glitch:** 1% chance a win flips to a loss due to "Server Error."
+* **Brainrot Player 2.0:** Added **UNMUTE** button, Split View (Subway Surfers + Content), and **Custom YouTube URL** support.
+* **Espionage:** Raid other players ($1,000 cost) to steal 5-10% of their wallet. Use with caution.
 * **Lootbox 2.0:** 5m Cooldown. Drops: Cash, Wage Multipliers, Rare PFPs, Emotes, Junk, and the **Mythic Printer**.
 
-### 📺 Media & Social
-* **Brainrot Player:** Added **UNMUTE** button, Split View (Subway Surfers + Content), and **Custom YouTube URL** support.
-* **Social:** Global Chat with auto-censor (don't get banned). Toast alerts for big plays. Leaderboard tracks Net Worth.
+### ⚖️ Gameplay & Economy Changes
+* **Social Credit Penalties:** Gambling now deducts **-5 Social Credit** per action (Roulette, Coinflip, Plinko). You must work to maintain your standing.
+* **Bank Rework:** Cap set to **$85,000**. Interest is now **2% Hourly** (paid to wallet). Withdrawal fee: 2%.
+* **Item Updates:** * **Firewall:** Now correctly blocks hacks and expires after 12 hours.
+  * **Espionage:** Hacking now has a 4-hour cooldown.
+* **Market QoL:** Added `Buy 1/10/MAX` and `Sell 1/10/ALL` buttons for Fish/Stocks.
+* **Plinko Resets:** Admin-controlled resets are now enabled for special events.
+
+### 🐛 Bug Fixes
+* **Visuals:** Fixed broken emojis for "Delivery Knight" and Lootbox rewards.
+* **Player:** The Brainrot Player now persists correctly across all game tabs (Slots, Roulette, Coin, Plinko).
+* **Stats:** Fixed an issue where total wagered/won stats were not updating correctly on the leaderboard.
 
 ---
 
@@ -64,6 +40,7 @@ Welcome to the official public repository for **Meme Machine**. Since the game c
 
 ### 1. Work & Career
 Click to earn. Risks scale with reward.
+
 * **Intern:** Earns $1 + Coffee. (Risk: 0%).
 * **Manager:** Earns $5 + Coffee. (Risk: **1%** chance of getting fired / -$100). *Req: 500 Credit.*
 * **CEO:** Earns $50 + 2xCoffee. (Risk: **5%** chance of SEC Raid / -20% Wallet). *Req: 1500 Credit.*
@@ -71,6 +48,7 @@ Click to earn. Risks scale with reward.
 
 ### 2. Taxes & Social Credit
 The government takes its cut. Taxes apply to **Wallet Only**.
+
 * **<$1k:** 0% Tax
 * **$1k - $5k:** 20% Tax
 * **>$5k:** 50% Tax
@@ -82,20 +60,24 @@ The government takes its cut. Taxes apply to **Wallet Only**.
 
 ### 3. Banking & Assets
 * **The Bank:** Safe from Hackers. Tax-Free.
-    * **Cap:** $85,000.
-    * **Interest:** 2% per hour (must hold funds to earn).
-    * **Fee:** 2% on withdrawals.
+  * **Cap:** $85,000.
+  * **Interest:** 2% per hour (must hold funds to earn).
+  * **Fee:** 2% on withdrawals.
 * **Stock Market:** Rare Fish prices change every minute. High volatility.
 
 ### 4. Winning Numbers (Slots)
-* `067` - **JACKPOT** ($25,000)
-* `777` - **LUCKY** ($7,777)
-* `666` - **DEVIL** ($6,666)
-* `420` - **BLAZE** ($4,200)
-* `123` - **STRAIGHT** ($1,230)
-* `007` - **BOND** ($700)
-* `069` - **NICE** ($690)
-* `XXX` - **TRIPLES** ($500)
+Cost: $10 per spin ($15 if low credit).
+
+| Number | Name | Payout |
+| :--- | :--- | :--- |
+| `067` | **JACKPOT** | **$25,000** |
+| `777` | **LUCKY** | $7,777 |
+| `666` | **DEVIL** | $6,666 |
+| `420` | **BLAZE** | $4,200 |
+| `123` | **STRAIGHT** | $1,230 |
+| `007` | **BOND** | $700 |
+| `069` | **NICE** | $690 |
+| `XXX` | **TRIPLES** | $500 |
 
 ---
 
