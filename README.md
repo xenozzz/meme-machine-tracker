@@ -4,7 +4,7 @@
 
 Welcome to the official public repository for **Meme Machine**. Since the game code is private (to prevent insider trading and source code theft), this repository serves as our **Issue Tracker**, **Suggestion Box**, and **Game Manual**.
 
-### 🔗 [PLAY THE GAME HERE] (Insert Your URL)
+### 🔗 https://slots.xenoz.online
 
 ---
 
