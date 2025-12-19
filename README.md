@@ -23,7 +23,7 @@ Welcome to the official public repository for **Meme Machine**. Since the game c
 * **Slots:** $10 spin ($15 if low credit). Jackpots up to **$25,000**.
 
 ### 📉 Economy & QoL
-* **Bank Rework:** Cap set to **$50,000**. Interest is now **2% Hourly** (paid to wallet). Withdrawal fee: 2%.
+* **Bank Rework:** Cap set to **$85,000**. Interest is now **2% Hourly** (paid to wallet). Withdrawal fee: 2%.
 * **Market QoL:** Added `Buy 1`, `10`, `MAX` and `Sell 1`, `10`, `ALL` buttons for Fish/Stocks.
 * **Espionage:** Raid other players ($1,000 cost) to steal 5-10% of their wallet.
 * **Lootbox 2.0:** 5m Cooldown. Drops: Cash, Wage Multipliers, Rare PFPs, Emotes, Junk, and the **Mythic Printer**.
@@ -56,7 +56,7 @@ The government takes its cut. Taxes apply to **Wallet Only**.
 
 ### 3. Banking & Assets
 * **The Bank:** Safe from Hackers. Tax-Free.
-    * **Cap:** $50,000.
+    * **Cap:** $85,000.
     * **Interest:** 2% per hour (must hold funds to earn).
     * **Fee:** 2% on withdrawals.
 * **Stock Market:** Rare Fish prices change every minute. High volatility.
