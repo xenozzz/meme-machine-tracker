@@ -4,7 +4,8 @@
 
 ### 🔗 Play Now: [slots.xenoz.online](https://slots.xenoz.online) - 
 
-## ⛔ This project is currently private access only. Want access? Send me a message via discord @xenoz.eu
+## ⛔ This project is currently private access only. 
+*  **Want access?** Send me a message via discord @xenoz.eu
 
 ---
 
