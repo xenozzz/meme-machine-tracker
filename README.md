@@ -2,37 +2,48 @@
 
 > **"The only economy where losing money is a feature."**
 
-Welcome to the official public repository for **Meme Machine**. Since the game code is private (to prevent insider trading and source code theft), this repository serves as our **Issue Tracker**, **Suggestion Box**, and **Game Manual**.
+Welcome to the official public repository for **Meme Machine**. This repository serves as our **Issue Tracker**, **Suggestion Box**, and **Game Manual**.
 
 ### 🔗 Play Now: [slots.xenoz.online](https://slots.xenoz.online)
 
 ---
 
-## 🚨 PATCH NOTES V5.0: THE BRAINROT UPDATE
+## 🚀 PATCH NOTES V5.2: THE BRAINROT ASCENSION
 
-### 🎰 New Features & Content
-* **PvP Deathrolls:** Challenge players to 1v1 coin-flip duels. Includes invite system, expiration timers, and history logs.
-  * *Note: Losing a massive wager triggers a "Humiliation" message in the global feed.*
-* **Roulette 2.0:** New 8-bit table visuals.
-  * **Red/Black:** 2x Payout.
-  * **Green:** 10x Payout (The Rug Pull).
-  * **The Glitch:** 1% chance a win flips to a loss due to "Server Error."
-* **Brainrot Player 2.0:** Added **UNMUTE** button, Split View (Subway Surfers + Content), and **Custom YouTube URL** support.
-* **Espionage:** Raid other players ($1,000 cost) to steal 5-10% of their wallet. Use with caution.
-* **Lootbox 2.0:** 5m Cooldown. Drops: Cash, Wage Multipliers, Rare PFPs, Emotes, Junk, and the **Mythic Printer**.
+### 🔐 Security & Integrity
+*   **Android Pattern Unlock:** Replaced basic login with an interactive 3x3 pattern unlock system. 3 failed attempts trigger a 60s lockout with a live countdown.
+*   **Emergency Recovery:** One-time 3-word brainrot phrases (e.g., `SKIBIDI-OHIO-RIZZ`) are provided during setup.
+*   **Atomic Transactions:** Every transaction is processed server-side via PostgreSQL RPCs to prevent double-spending and race conditions.
+*   **PvP Integrity:** Coinflip and Deathrolls now use a strict **Invite/Accept** flow to prevent griefing.
 
-### ⚖️ Gameplay & Economy Changes
-* **Social Credit Penalties:** Gambling now deducts **-5 Social Credit** per action (Roulette, Coinflip, Plinko). You must work to maintain your standing.
-* **Bank Rework:** Cap set to **$85,000**. Interest is now **2% Hourly** (paid to wallet). Withdrawal fee: 2%.
-* **Item Updates:** * **Firewall:** Now correctly blocks hacks and expires after 12 hours.
-  * **Espionage:** Hacking now has a 4-hour cooldown.
-* **Market QoL:** Added `Buy 1/10/MAX` and `Sell 1/10/ALL` buttons for Fish/Stocks.
-* **Plinko Resets:** Admin-controlled resets are now enabled for special events.
+### 👑 The Prestige & Property Endgame
+*   **Flee The Country:** Achieve a **$1,000,000 Net Worth** to reset progress and earn permanent **Legendary Status**.
+*   **Prestige Ranks:** Earn titles like **Ex-Patriot 🌴**, **Offshore Mogul 🏦**, **Global Elite 🍷**, **Shadow Ruler 👁️**, and **Intergalactic Rizzler 🪐**.
+*   **Permanent Buffs:** Each Prestige Tier grants **+5% Permanent Luck** and a **+500 Social Credit floor** (max 1500).
+*   **Property Ownership:** Buy **The Bank** ($500k) or **The Casino** ($750k) to earn a **1% commission** on global transactions.
+    *   *Warning:* Owners must pay a daily **$10,000 Land Tax** or face property seizure.
 
-### 🐛 Bug Fixes
-* **Visuals:** Fixed broken emojis for "Delivery Knight" and Lootbox rewards.
-* **Player:** The Brainrot Player now persists correctly across all game tabs (Slots, Roulette, Coin, Plinko).
-* **Stats:** Fixed an issue where total wagered/won stats were not updating correctly on the leaderboard.
+### 📈 Wolf of Meme Street
+*   **Meme Stocks:** Added **$GME, $DOGE, and $PEPE**.
+*   **Trend Logic:** Assets follow market cycles (**BULL, BEAR, MOON, CRASH**) rather than random noise.
+*   **Rug Pulls:** 0.5% chance for a devastating **80% Market Crash** on any security.
+*   **Portfolio P/L:** Live tracking of Average Cost Basis and real-time gains/losses.
+
+### 🧠 Active Grind & Engagement
+*   **Bureaucratic Busywork:** Work is interrupted every 10-15 clicks by mandatory tasks (Recycle TPS reports, Resolve HR Audits, Settle CEO Lawsuits).
+*   **Re-Education Camp:** If Social Credit hits **0**, you are locked out of work until you pass a brainrot quiz at the Re-Education Center.
+*   **Productivity Spikes:** 1% chance while working to hit a **100x Wage Spike**.
+*   **Daily Login Streaks:** Earn escalating cash bonuses and track your streak via the header flame indicator.
+
+### 🚔 Law & Order (SEC Heat)
+*   **Heat Accumulation:** High-tier jobs (CEO) and Offshore Accounts generate **SEC Heat**.
+*   **Dynamic Audits:** High Heat = High risk of an IRS Audit (**50% Bank Wipe**).
+*   **Stress Relief:** Clicking the **Beer** icon reduces Heat Level by -50 points.
+
+### 📎 The Meta Glitch
+*   **Fake BSOD:** Random chance on loss to trigger a Blue Screen of Death.
+*   **Meme CAPTCHA:** Type *"I AM A WAGE SLAVE"* to regain access after a crash.
+*   **Clippy:** The classic assistant appears to insult your financial failures.
 
 ---
 
@@ -40,34 +51,22 @@ Welcome to the official public repository for **Meme Machine**. Since the game c
 
 ### 1. Work & Career
 Click to earn. Risks scale with reward.
-
-* **Intern:** Earns $1 + Coffee. (Risk: 0%).
-* **Manager:** Earns $5 + Coffee. (Risk: **1%** chance of getting fired / -$100). *Req: 500 Credit.*
-* **CEO:** Earns $50 + 2xCoffee. (Risk: **5%** chance of SEC Raid / -20% Wallet). *Req: 1500 Credit.*
-* *Coffee:* Each level adds +$1 to base wage (Uncapped).
+*   **Intern:** Earns $1 + Coffee. (Risk: 0%). *Task: Recycle TPS Reports.*
+*   **Manager:** Earns $5 + Coffee. (Risk: 1% fire / -$100). *Req: 500 Credit. Task: Email Synergy.*
+*   **CEO:** Earns $50 + 2xCoffee. (Risk: 5% SEC Raid / -20% Wallet). *Req: 1500 Credit & $2,000 Wallet. Task: Legal Settlements.*
 
 ### 2. Taxes & Social Credit
-The government takes its cut. Taxes apply to **Wallet Only**.
+*   **Social Credit:** Gain by working (+5), Lose by gambling (-20).
+*   **Decay:** Active players lose **-1 Credit per hour**.
+*   **Penalty:** If Credit < 500, pay **+10% Tax** and Slots cost **$15**.
 
-* **<$1k:** 0% Tax
-* **$1k - $5k:** 20% Tax
-* **>$5k:** 50% Tax
+### 3. Banking & Economy
+*   **Interest:** 0.1% hourly (paid to wallet).
+*   **Premium Air:** Free Trial trap. +5% Luck but drains **$500/minute** silently after trial.
+*   **Offshore Account:** 0% Wage Tax, but attracts high **SEC Heat**.
+*   **Split Screen:** $5,000 upgrade to watch two brainrot videos at once.
 
-**Social Credit System:**
-* **Gain:** Working (+5), Snitching.
-* **Lose:** Gambling (-5), Chat Violations.
-* **Penalty:** If Credit < 500, you pay **+10% Tax** and Slots cost **$15**.
-
-### 3. Banking & Assets
-* **The Bank:** Safe from Hackers. Tax-Free.
-  * **Cap:** $85,000.
-  * **Interest:** 2% per hour (must hold funds to earn).
-  * **Fee:** 2% on withdrawals.
-* **Stock Market:** Rare Fish prices change every minute. High volatility.
-
-### 4. Winning Numbers (Slots)
-Cost: $10 per spin ($15 if low credit).
-
+### 4. Slot Winning Numbers
 | Number | Name | Payout |
 | :--- | :--- | :--- |
 | `067` | **JACKPOT** | **$25,000** |
@@ -82,21 +81,4 @@ Cost: $10 per spin ($15 if low credit).
 ---
 
 ## 🛠️ How to Contribute
-
-### 🐛 Found a Bug?
-Did the Market crash? Did the Roulette wheel spin forever?
-* Check the [Issues Tab](https://github.com/YOUR_USERNAME/REPO_NAME/issues) first.
-* **[Open a Bug Report](https://github.com/YOUR_USERNAME/REPO_NAME/issues/new)**.
-* *Please include screenshots and your device (Mobile vs Desktop).*
-
-### 💡 Feature Requests
-We are looking for toxic mechanics and fun gambling concepts.
-* **[Submit a Feature Request](https://github.com/YOUR_USERNAME/REPO_NAME/issues/new)**.
-
----
-
-## ⚠️ Disclaimer
-**Do not post sensitive information.**
-When uploading screenshots of bugs, please ensure you are not sharing personal passwords or sensitive data. This is a public repository.
-
-*Managed by the Meme Machine Dev Team. Social Credit +10 for starring this repo.*
+*Found a bug? Submit a report! Social Credit +10 for starring this repo.*
