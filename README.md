@@ -1,49 +1,35 @@
-# 🧠 Meme Machine V5.0+ | Public Hub
+# 🧠 Meme Machine V5.2 | The Brainrot Ascension
 
 > **"The only economy where losing money is a feature."**
-
-Welcome to the official public repository for **Meme Machine**. This repository serves as our **Issue Tracker**, **Suggestion Box**, and **Game Manual**.
 
 ### 🔗 Play Now: [slots.xenoz.online](https://slots.xenoz.online)
 
 ---
 
-## 🚀 PATCH NOTES V5.2: THE BRAINROT ASCENSION
+## 🚀 PATCH NOTES V5.2: LATEST UPDATES
 
-### 🔐 Security & Integrity
-*   **Android Pattern Unlock:** Replaced basic login with an interactive 3x3 pattern unlock system. 3 failed attempts trigger a 60s lockout with a live countdown.
-*   **Emergency Recovery:** One-time 3-word brainrot phrases (e.g., `SKIBIDI-OHIO-RIZZ`) are provided during setup.
-*   **Atomic Transactions:** Every transaction is processed server-side via PostgreSQL RPCs to prevent double-spending and race conditions.
-*   **PvP Integrity:** Coinflip and Deathrolls now use a strict **Invite/Accept** flow to prevent griefing.
+### 🔐 Ironclad Security
+*   **Android Pattern Unlock:** 3x3 grid security. 3 failed attempts = 60s lockout.
+*   **Emergency Recovery:** One-time 3-word brainrot phrases provided for account recovery.
+*   **Atomic Transactions:** All trades and gambles processed via server-side PostgreSQL RPCs.
+*   **PvP Consent:** Strict Invite/Accept flow for all duels (Coinflip & Deathrolls).
 
-### 👑 The Prestige & Property Endgame
-*   **Flee The Country:** Achieve a **$1,000,000 Net Worth** to reset progress and earn permanent **Legendary Status**.
-*   **Prestige Ranks:** Earn titles like **Ex-Patriot 🌴**, **Offshore Mogul 🏦**, **Global Elite 🍷**, **Shadow Ruler 👁️**, and **Intergalactic Rizzler 🪐**.
-*   **Permanent Buffs:** Each Prestige Tier grants **+5% Permanent Luck** and a **+500 Social Credit floor** (max 1500).
-*   **Property Ownership:** Buy **The Bank** ($500k) or **The Casino** ($750k) to earn a **1% commission** on global transactions.
-    *   *Warning:* Owners must pay a daily **$10,000 Land Tax** or face property seizure.
+### 👑 The Property & Prestige Endgame
+*   **Flee The Country:** Reset at $1M Net Worth for permanent **Noble Bloodline** buffs (+5% Luck per tier).
+*   **Property Ownership:** Buy **The Bank** ($500k) or **The Casino** ($750k) for global commissions.
+*   **Hostile Buyouts:** Wealthy players can buy owned properties for **2x the Base Price**. Previous owners are compensated with the base price.
+*   **Real Estate Management:** Owners can buy **Aggressive Accounting** (lower tax) and **VIP Service** (1.5% cut).
+*   **Liquidation:** Owners can voluntarily sell for a **50% refund**.
 
-### 📈 Wolf of Meme Street
-*   **Meme Stocks:** Added **$GME, $DOGE, and $PEPE**.
-*   **Trend Logic:** Assets follow market cycles (**BULL, BEAR, MOON, CRASH**) rather than random noise.
-*   **Rug Pulls:** 0.5% chance for a devastating **80% Market Crash** on any security.
-*   **Portfolio P/L:** Live tracking of Average Cost Basis and real-time gains/losses.
+### 📉 Wolf of Meme Street
+*   **Stocks:** $GME, $DOGE, $PEPE with **Trend Logic** (Bull, Bear, Moon, Crash).
+*   **Rug Pulls:** 0.5% chance for a devastating **80% Market Crash**.
+*   **Portfolio P/L:** Live cost-basis tracking and real-time gain/loss percentages.
 
-### 🧠 Active Grind & Engagement
-*   **Bureaucratic Busywork:** Work is interrupted every 10-15 clicks by mandatory tasks (Recycle TPS reports, Resolve HR Audits, Settle CEO Lawsuits).
-*   **Re-Education Camp:** If Social Credit hits **0**, you are locked out of work until you pass a brainrot quiz at the Re-Education Center.
-*   **Productivity Spikes:** 1% chance while working to hit a **100x Wage Spike**.
-*   **Daily Login Streaks:** Earn escalating cash bonuses and track your streak via the header flame indicator.
-
-### 🚔 Law & Order (SEC Heat)
-*   **Heat Accumulation:** High-tier jobs (CEO) and Offshore Accounts generate **SEC Heat**.
-*   **Dynamic Audits:** High Heat = High risk of an IRS Audit (**50% Bank Wipe**).
-*   **Stress Relief:** Clicking the **Beer** icon reduces Heat Level by -50 points.
-
-### 📎 The Meta Glitch
-*   **Fake BSOD:** Random chance on loss to trigger a Blue Screen of Death.
-*   **Meme CAPTCHA:** Type *"I AM A WAGE SLAVE"* to regain access after a crash.
-*   **Clippy:** The classic assistant appears to insult your financial failures.
+### 🔊 Sensory Overload (The Juice)
+*   **8-Bit Audio:** Synthesized retro sounds for all interactions (Mute toggle in Header).
+*   **Visual Chaos:** Confetti explosions, floating income particles, and sequential slot stops.
+*   **The Meta Glitch:** Random BSODs, "I AM A WAGE SLAVE" CAPTCHAs, and Clippy mockery.
 
 ---
 
@@ -51,32 +37,56 @@ Welcome to the official public repository for **Meme Machine**. This repository 
 
 ### 1. Work & Career
 Click to earn. Risks scale with reward.
-*   **Intern:** Earns $1 + Coffee. (Risk: 0%). *Task: Recycle TPS Reports.*
-*   **Manager:** Earns $5 + Coffee. (Risk: 1% fire / -$100). *Req: 500 Credit. Task: Email Synergy.*
-*   **CEO:** Earns $50 + 2xCoffee. (Risk: 5% SEC Raid / -20% Wallet). *Req: 1500 Credit & $2,000 Wallet. Task: Legal Settlements.*
+*   **Intern:** $1 + Coffee. (Risk: 0%). *Task: Drag TPS Reports to Bin.*
+*   **Manager:** $5 + Coffee. (Risk: 1% fire). *Req: 500 Credit. Task: Reply to HR Synergy.*
+*   **CEO:** $50 + 2xCoffee. (Risk: 5% SEC Raid / -20% Wallet). *Req: 1500 Credit. Task: Settle Lawsuits.*
+*   **Critical Spike:** 1% chance for **100x Wage** payout.
 
 ### 2. Taxes & Social Credit
 *   **Social Credit:** Gain by working (+5), Lose by gambling (-20).
 *   **Decay:** Active players lose **-1 Credit per hour**.
+*   **Re-Education:** If Credit hits **0**, you are locked out of work until you pass the Brainrot Quiz.
 *   **Penalty:** If Credit < 500, pay **+10% Tax** and Slots cost **$15**.
 
 ### 3. Banking & Economy
-*   **Interest:** 0.1% hourly (paid to wallet).
-*   **Premium Air:** Free Trial trap. +5% Luck but drains **$500/minute** silently after trial.
+*   **Interest:** 0.1% hourly (paid to wallet). $85k Cap.
+*   **Premium Air:** Free Trial trap. +5% Luck but drains **$500/minute** silently (Pulsing red indicator in header).
 *   **Offshore Account:** 0% Wage Tax, but attracts high **SEC Heat**.
-*   **Split Screen:** $5,000 upgrade to watch two brainrot videos at once.
+*   **Stress Relief:** Clicking **Beer** (-$20) reduces SEC Heat by -50 points.
+*   **Espionage:** Pay $1,000 to raid a player for 5-10% of their wallet. (Blocked by **Firewall**).
 
-### 4. Slot Winning Numbers
+### 4. Lootboxes & Cosmetics
+*   **Lootbox ($100):** Drops cash, buffs, PFPs, and Emotes.
+*   **Mythic Printer:** 1% drop. Grants permanent **+$5 per work click**.
+*   **Emotes:** Use in chat via `:id:` (e.g., `:stonks:`, `:rocket:`, `:trash:`, `:clown:`, `:skull:`).
+*   **PFPs:** Equip rare sprites (Doge, Pepe, Gigachad) from your Profile Dossier.
+
+### 5. Achievement Badges
+*   **Whale:** Own > 100 Rare Fish.
+*   **Degenerate:** Wager > $100,000 total.
+*   **Rat:** Successfully steal funds via Espionage.
+*   **Wage Slave:** Complete > 500 work clicks.
+*   **Legend:** Reach at least Prestige Tier 1.
+
+### 6. Slot Winning Numbers
 | Number | Name | Payout |
 | :--- | :--- | :--- |
 | `067` | **JACKPOT** | **$25,000** |
-| `777` | **LUCKY** | $7,777 |
+| `777` | **LUCKY 7s** | $7,777 |
 | `666` | **DEVIL** | $6,666 |
-| `420` | **BLAZE** | $4,200 |
+| `420` | **BLAZE IT** | $4,200 |
 | `123` | **STRAIGHT** | $1,230 |
-| `007` | **BOND** | $700 |
 | `069` | **NICE** | $690 |
 | `XXX` | **TRIPLES** | $500 |
+
+---
+
+## 👑 PRESTIGE RANKS
+1. **Ex-Patriot 🌴** (+5% Luck)
+2. **Offshore Mogul 🏦** (+10% Luck)
+3. **Global Elite 🍷** (+15% Luck)
+4. **Shadow Ruler 👁️** (+20% Luck)
+5. **Intergalactic Rizzler 🪐** (+25% Luck)
 
 ---
 
