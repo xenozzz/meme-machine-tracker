@@ -5,9 +5,14 @@
 ### 🔗 Play Now: [slots.xenoz.digital](https://slots.xenoz.digital)
 ### ⛔ Private access only — DM `@xenoz.eu` on Discord for an invite.
 
+---
+
+## What is this?
+
 You’re a corporate wage-slave in a satirical idle game where you work a 9-5, gamble in absurd casino mini-games, and juggle risk between your wallet, bank, and the market.
 Progress isn’t just luck — you manage Social Credit, upgrades, properties, and timing to climb from intern to CEO while dodging bad decisions and exploiting good ones.
 It’s a darkly funny grind about modern work culture, where smart risk management beats blind gambling.
+
 ---
 
 ## Current feature set (what’s live)
