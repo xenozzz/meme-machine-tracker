@@ -2,7 +2,7 @@
 
 > **“The only economy where losing money is a feature.”**
 
-### 🔗 Play Now: [slots.xenoz.digital](https://slots.xenoz.digital)
+### 🔗 Play Now: [play.mememachine.vip](https://play.mememachine.vip)
 ### ⛔ Private access only — DM `@xenoz.eu` on Discord for an invite.
 
 ---
